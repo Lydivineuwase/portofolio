@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    background-color: black;
+    text-align: right;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.navi{
+    float: right;
+    text-align: right;
+    margin-right: 0px;
+    width: 75%;
+    padding: 25px;
+
+}
+
+.logo{
+    display: inline-flex;
+    color: lightblue;
+    text-align: justify;
+    font-size:xx-large;
+
+}
+
+
+nav a{
+    font-size: larger;
+    text-align: right;
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    margin: 15px 15px;
+}
+
+nav a:hover{
+    color: lightsteelblue;
+}

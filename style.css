@@ -1,0 +1,240 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    background-color: brown;
+    height: 100%;
+    width: 100%;
+}
+
+div{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    background-color: black;
+    text-align: right;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.navi{
+    float: right;
+    text-align: right;
+    margin-right: 0px;
+    width: 75%;
+    padding: 25px;
+
+}
+
+.logo{
+    display: inline-flex;
+    color: lightblue;
+    text-align: justify;
+    font-size:xx-large;
+
+}
+
+
+nav a{
+    font-size: x-large;
+    text-align: right;
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    margin: 15px 15px;
+}
+
+nav a:hover{
+    color: lightsteelblue;
+}
+
+#home{
+    background-color: rgb(24, 23, 23);
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 350px;
+}
+
+
+
+.greeting{
+    background-color: rgb(24, 23, 23);
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    width: 50%;
+    padding-left: 300px;
+    margin-top: 50px;
+    text-align: justify;
+
+}
+
+.name{
+    color: white;
+    font-size: x-large;
+    text-align: left;
+}
+
+.dev{
+    color: white;
+    font-size: x-large;
+    text-align: left;
+}
+
+.homeimage{
+    width: 50%;
+    margin-top: 50px;
+    padding-right: 100px;
+
+}
+
+.prof{
+    float: right;
+    border-radius: 60%;
+    width: 170px;
+    /* margin-right: 400px;
+    padding-bottom: 0; */
+
+
+
+}
+
+#about {
+    background-color: rgb(2, 59, 94);
+    height: 100vh;
+    border: 2px solid  rgb(2, 59, 94);
+    padding-left: 15px;
+    
+}
+
+ h2{
+    color: lightblue;
+    text-align: left ;
+    font-size: xx-large;
+    
+ }
+
+ p{
+    /* position: absolute; */
+    width: 500px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: medium;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    text-align: justify; 
+}
+
+
+.img{
+    float: right;
+    border-radius: 50%;
+    width: 300px;
+    margin-right: 200px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 60px ;
+
+}
+
+#skills{
+    background-color:  rgb(2, 59, 94);
+    /* border: 2px solid rgb(2, 59, 94); */
+    padding-left: 15px;
+    margin:0;
+    height: 30vh;
+
+}
+#skills h3{
+    color: lightblue;
+}
+
+#skills p{
+    background-color: blueviolet;
+    width: 220px;
+    height: 200px
+}
+#skills li{
+    color: white;
+}
+
+#contact{
+    background-color: rgb(142, 203, 246);
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 350px;
+    padding-left: 15px;
+}
+
+
+#contact h4{
+    color: green;
+    font-size: x-large;
+    text-align: display;
+    
+}
+
+#contact p{
+    color: black;
+    padding-top: 80px;
+    text-align: display;
+
+}
+
+.message{
+    padding-top: 5%;
+    padding-left: 60%;
+}
+
+.message h5{
+    font-size: x-large;
+    color: green;
+}
+
+
+input{
+    border-radius: 10px solid white;
+    width: 300px;
+    height: 25px;
+}
+
+form input#text1{
+    height: 60px;
+}
+
+#send{
+    border-radius: 30px ;
+    width:300px ;
+    height: 25px ;
+    background-color: rgb(245, 92, 36);
+}
+
+button:hover{
+    background-color: transparent;
+
+}
+
+form input#name#email{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.one{
+    background-color: aqua;
+    height: 100vh;
+}
+
+.two{
+    background-color: blue;
+    height: 120vh;
+}
+
+
+
+
