@@ -1,28 +1,22 @@
-body{
-    margin: 0;
-    padding: 0;
-}
-
 nav{
     display: flex;
     background-color: black;
     text-align: right;
     padding: 20px;
     justify-content: space-between;
+    
 }
 
 .navi{
     float: right;
     text-align: right;
-    margin-right: 0px;
-    width: 75%;
     padding: 25px;
 
 }
 
 .logo{
     display: inline-flex;
-    color: lightblue;
+    color: rgb(191, 3, 103);
     text-align: justify;
     font-size:xx-large;
 
@@ -33,11 +27,117 @@ nav a{
     font-size: larger;
     text-align: right;
     text-decoration: none;
-    color: white;
+    color: rgb(191, 3, 103);
     padding: 10px 10px;
     margin: 15px 15px;
 }
 
 nav a:hover{
-    color: lightsteelblue;
+    color: azure;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(172, 174, 174, 0.459);
+
+    
+}
+
+
+#header{
+    text-align: right;
+    
+
+
+}
+
+#header button{
+    color: azure;
+    font-size: x-large;
+    border-color:rgb(191, 3, 103);
+    
+}
+
+#header button a{
+    text-decoration: none;
+    color:azure
+}
+
+
+
+
+.firstrow{
+    display: flex;
+    text-align: center;
+    padding-left: 5%;
+    padding-top: 10%;
+
+}
+
+h2{
+    font-size: medium;
+    color: rgb(191, 3, 103);
+}
+
+.card{
+    width: 30%;
+    height: 10%;
+    text-align: center;
+    background-color: #ffffffd0;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding-bottom: 30px;
+    box-shadow: 1000px;
+    
+    
+
+}
+
+.img{
+    border: solid black;
+    margin: auto;
+    
+   
+}
+
+.card p{
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+.secondrow{
+    display: flex;
+    text-align: center;
+    padding-left: 5%;
+
+
+}
+
+button{
+    background-color: rgb(191, 3, 103);
+    color: azure;
+    border-color:rgb(191, 3, 103) ;
+
+}
+
+#footer{
+    background-color: lightgrey;
+    height: 10%;
+    
+}
+
+#footer p{
+    padding-left: 45%;
+    font-size: x-large;
+    margin: auto;
+    padding-top: 1%;
+    color:rgb(191, 3, 103);
+    font-family:'Times New Roman', Times, serif;
+
+    
 }

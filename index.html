@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c18dc0de74.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -25,52 +26,134 @@
     </div>
 
     <div id="home">
-        <div class="greeting">Hello, I AM
-            <div class="name">Marie Lydivine Uwase</div>
-            <div class="dev"> And I am a Front-End Developer</div>
-            <div></div>
-        </div>
-        <div class="homeimage">
-            <img class="prof" src="https://www.svgrepo.com/show/382095/female-avatar-girl-face-woman-user-4.svg">
-        </div>
-        
-
+         <div class="intro">
+            <p>Hello,<br>
+               I'm Lydivine<br>
+               And I'm a<br>
+               Front End Developer
+            </p>
+            
+        </div>  
+    
     </div>
+
 
     <div id="about">
-        <h2>About me </h2>
-        <img class="img" src="https://www.svgrepo.com/show/382095/female-avatar-girl-face-woman-user-4.svg">
-        <p> I'm a passionate Junior Front-End Developer with a strong desire to bring creativity and functionality to the web. I thrive on turning ideas into engaging and interactive user experiences. My journey in web development began with a fascination for turning lines of code into beautifully designed websites that solve real-world problems.
-
-            <br> <br>I'm well-versed in HTML, CSS, and JavaScript, and I'm constantly expanding my skill set to stay up-to-date with the latest web technologies. I believe in the power of collaboration and am excited to work alongside experienced professionals who share my enthusiasm for creating stunning, user-friendly web applications.<br> <br>
+        <div class="aboutme"> 
+         <h2>About me </h2>
+         <p> I'm a passionate Junior Front-End Developer with a strong desire to bring creativity and functionality to the web. I thrive on turning ideas into engaging and interactive user experiences. My journey in web development began with a fascination for turning lines of code into beautifully designed websites that solve real-world problems.
+             <br> <br>I'm well-versed in HTML, CSS, and JavaScript, and I'm constantly expanding my skill set to stay up-to-date with the latest web technologies. I believe in the power of collaboration and am excited to work alongside experienced professionals who share my enthusiasm for creating stunning, user-friendly web applications.<br> <br>
             When I'm not coding, you can find me exploring new design trends, and seeking opportunities to contribute to open-source projects. I'm committed to continuous learning and am excited about the endless possibilities that web development offers.
-        </p>
+         </p>
+        </div>
+        <div class="aboutimage">
+            <img class="img" src="https://www.svgrepo.com/show/382095/female-avatar-girl-face-woman-user-4.svg">
+        </div>
     
     </div>
     
-    <div id="skills">
-        <h3>My Skills</h3>
-    
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>GitHub</li>
-            </ul>
+
+<div id="skills">
+    <h1>My Skills</h1>
+    <div class="container">
+        <div class="child" >
+            <div style="width: 80%; color:azure;">
+                <h5>HTML</h5>
+                <h5>80%</h5>
+            </div>
+        </div>
+
+        <div class="child">
+            <div style="width: 70%; color:azure;">
+                <h5>CSS</h5>
+                <h5>70%</h5>
+            </div>
+        </div>
+
+        <div class="child">
+            <div style="width: 70%; color:azure;">
+                <h5>JavaScript</h5>
+                <h5>70%</h5>
+            </div>
+        </div>
+
+        <div class="child">
+            <div style="width: 60%; color:azure;">
+                <h5>Data analytics</h5>
+                <h5>60%</h5>
+            </div>
+        </div>
+
+        <div class="child">
+            <div style="width: 100%; color:azure;">
+                <h5>Digital Marketing</h5>
+                <h5>100%</h5>
+            </div>
+        </div>
         
+        <div class="child">
+            <div style="width: 100%; color:azure;">
+                <h5>E-commerce</h5>
+                <h5>100%</h5>
+            </div>
+        </div>
+       
 
     </div>
+</div>
+
+
 
     <div id="contact">
-         <h4>MyContanct</h4> 
+        <div class="mycontact">
+         <h4>My Contanct</h4> 
             <p>Let's Connect! Reach out for collaborations, opportunities, or simply want to share your thoughts, I'm all ears!<br> let's create something awesome together."
-            </p> <br><br><br>
-    
-            
-        
-            
-        
-         <div class="message">
+            </p> <br><br>
+
+            <div class="icons">
+                <div id="icone">
+                  
+                     <p><i class="fa-solid fa-user"></i> Name<br>
+                      Marie Lydivine Uwase
+                    </p>  
+            </div>     
+                <br><br>
+            <div id="ictwo">
+                <p><i class="fa-brands fa-linkedin"></i>Linkedin<br>
+                <a href="https://www.linkedin.com/in/marie-lydivine-uwase-35a90a223/">linkedin</a>
+                </p>
+            </div>
+                <br><br>
+
+            <div id="icthree">
+                <p><i class="fa-brands fa-github"></i>GitHub</i><br>
+                <a href="https://github.com/Lydivineuwase">GitHub</a>
+                </p>
+            </div>
+                <br><br>
+
+            <div id="icfour">    
+                
+                <p><i class="fa-solid fa-location-dot"></i>Location<br>
+                   Jana Dekerta 14B, 87-100 Torun
+                </p>
+            </div>
+                <br><br>
+
+            <div id="icfive">
+                
+                <p><i class="fa-solid fa-phone"></i>Telephone<br>
+                    +48571944034
+                </p>
+            </div>
+             <br><br><br>
+                
+       
+               </div>
+        </div>   
+
+       
+      <div class="message">
             <h5>Message Me</h5>
             <form>
                 <input type="text" id="name" name="name" placeholder="Name"><br><br>
@@ -80,6 +163,11 @@
                 <button type="button" id="send">Send Message</button>
             </form>
          </div> 
+    </div>
+
+
+    <div id="footer">
+        <p>Done by @Uwase</p>
     </div>
     
     

@@ -1,7 +1,6 @@
 body, html{
     margin: 0;
     padding: 0;
-    background-color: brown;
     height: 100%;
     width: 100%;
 }
@@ -16,20 +15,20 @@ nav{
     text-align: right;
     padding: 20px;
     justify-content: space-between;
+    width: 200vh;
+    position: fixed;
 }
 
 .navi{
     float: right;
     text-align: right;
-    margin-right: 0px;
-    width: 75%;
     padding: 25px;
 
 }
 
 .logo{
     display: inline-flex;
-    color: lightblue;
+    color: rgb(191, 3, 103);;
     text-align: justify;
     font-size:xx-large;
 
@@ -40,86 +39,78 @@ nav a{
     font-size: x-large;
     text-align: right;
     text-decoration: none;
-    color: white;
+    color: rgb(191, 3, 103);;
     padding: 10px 10px;
     margin: 15px 15px;
 }
 
 nav a:hover{
-    color: lightsteelblue;
+    color: azure;
 }
 
 #home{
-    background-color: rgb(24, 23, 23);
-    height: 50vh;
+    background-image:url( https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1812&q=80;);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
     display: flex;
-    justify-content: space-between;
     padding-right: 350px;
 }
 
 
 
-.greeting{
-    background-color: rgb(24, 23, 23);
+.intro p{ 
     color: white;
-    font-size: x-large;
-    text-align: center;
-    width: 50%;
-    padding-left: 300px;
-    margin-top: 50px;
+    font-size: xx-large;
     text-align: justify;
-
-}
-
-.name{
-    color: white;
-    font-size: x-large;
-    text-align: left;
-}
-
-.dev{
-    color: white;
-    font-size: x-large;
-    text-align: left;
-}
-
-.homeimage{
-    width: 50%;
-    margin-top: 50px;
-    padding-right: 100px;
-
-}
-
-.prof{
-    float: right;
-    border-radius: 60%;
-    width: 170px;
-    /* margin-right: 400px;
-    padding-bottom: 0; */
-
-
-
-}
-
-#about {
-    background-color: rgb(2, 59, 94);
-    height: 100vh;
-    border: 2px solid  rgb(2, 59, 94);
-    padding-left: 15px;
+    margin: 50%;
     
 }
 
+
+.intro {
+    opacity: 1;
+    animation: fadeIn 5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 1;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+#about {
+    background-color: white;
+    height: 100vh;
+    padding-left: 15px;
+    display: flex;
+    
+
+    
+}
+
+.aboutme{
+    width: 50%;
+
+}
+
  h2{
-    color: lightblue;
+    color: rgb(191, 3, 103);
     text-align: left ;
     font-size: xx-large;
     
  }
 
  p{
-    /* position: absolute; */
     width: 500px;
-    color: white;
+    color: black;
     font-family: Arial, Helvetica, sans-serif ;
     font-size: medium;
     letter-spacing: 1px;
@@ -127,6 +118,11 @@ nav a:hover{
     text-align: justify; 
 }
 
+.aboutimage{
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
 
 .img{
     float: right;
@@ -140,59 +136,47 @@ nav a:hover{
 
 }
 
-#skills{
-    background-color:  rgb(2, 59, 94);
-    /* border: 2px solid rgb(2, 59, 94); */
-    padding-left: 15px;
-    margin:0;
-    height: 30vh;
-
-}
-#skills h3{
-    color: lightblue;
-}
-
-#skills p{
-    background-color: blueviolet;
-    width: 220px;
-    height: 200px
-}
-#skills li{
-    color: white;
-}
 
 #contact{
-    background-color: rgb(142, 203, 246);
-    height: 70vh;
+    background-color: whitesmoke;
+    height: 160vh;
+    width: 207vh;
     display: flex;
-    justify-content: space-between;
-    padding-right: 350px;
+
+    
+}
+
+.mycontact{
     padding-left: 15px;
 }
+
 
 
 #contact h4{
-    color: green;
+    color: rgb(191, 3, 103);;
     font-size: x-large;
-    text-align: display;
+    text-align: justify;
     
 }
 
 #contact p{
     color: black;
-    padding-top: 80px;
-    text-align: display;
+    padding-top: 10px;
+    text-align: justify;
+    width: 100vh;
 
 }
 
 .message{
-    padding-top: 5%;
-    padding-left: 60%;
+    
+    width: 100vh;
+    padding-top: 10%;
+    padding-left:10%;
 }
 
 .message h5{
     font-size: x-large;
-    color: green;
+    color: rgb(191, 3, 103);;
 }
 
 
@@ -210,7 +194,9 @@ form input#text1{
     border-radius: 30px ;
     width:300px ;
     height: 25px ;
-    background-color: rgb(245, 92, 36);
+    background-color:rgb(191, 3, 103);
+    border-color: rgb(191, 3, 103);
+    color: azure;
 }
 
 button:hover{
@@ -223,17 +209,101 @@ form input#name#email{
     justify-content: space-between;
 }
 
+.icons{
+    font-size: medium;
+    position: absolute;
+
+}
 
 
-.one{
-    background-color: aqua;
+
+.icons p{
+    padding-left: 50px;
+}
+
+i{
+    font-size: xx-large;
+    color: rgb(191, 3, 103);
+
+}
+
+
+
+
+
+#skills{
     height: 100vh;
+    background-image: url(https://e0.pxfuel.com/wallpapers/149/259/desktop-wallpaper-web-development.jpg);
+
 }
 
-.two{
-    background-color: blue;
-    height: 120vh;
+#skills h1{
+    text-align: center;
+    padding-top: 3%;
+    color: rgb(250, 110, 180) ;
 }
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px; 
+    padding:15% 10%;
+    
+  }
+
+  .child {
+    height: 4vh; 
+    text-align: center; 
+   
+    background-color:white;
+    margin: 5px;
+
+
+
+  }
+
+.child div{
+    background-color: rgb(168, 47, 112);
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+  }
+
+.child div h5{
+    font-size: 15px;
+    color: azure;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+#footer{
+    background-color: lightgrey;
+    height: 10%;
+    
+}
+
+#footer p{
+    padding-left: 30%;
+    font-size: x-large;
+    margin: auto;
+    padding-top: 1%;
+    color:rgb(191, 3, 103);
+    font-family:'Times New Roman', Times, serif;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
