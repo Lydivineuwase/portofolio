@@ -2,6 +2,8 @@
 #navbar{
     background-color: black;
     display: flex;
+    width: 100vw;
+    /* position:fixed; */
     
 }
 
@@ -38,6 +40,7 @@ nav a:hover{
 #home{
     height: 100vh;
     display: flex;
+    width: 100vw;
 }
 
 #home{
@@ -78,7 +81,7 @@ nav a:hover{
     height: 100vh;
     padding-left: 15px;
     display: flex;
-    
+    width: 100vw;
 
     
 }
@@ -121,7 +124,7 @@ nav a:hover{
 #contact{
     background-color: whitesmoke;
     height: 160vh;
-    /* width: 207vh; */
+    width: 100vw;
     display: flex;
 
     
@@ -215,6 +218,7 @@ i{
 #skills{
     display: flex;
     height: 100vh;
+    width: 100vw;
     background-image: url(https://e0.pxfuel.com/wallpapers/149/259/desktop-wallpaper-web-development.jpg);
 
 }
@@ -263,6 +267,7 @@ h1{
 #footer{
     background-color: lightgrey;
     height: 10vh;
+    width: 100vw;
     display: flex;
 }
 
