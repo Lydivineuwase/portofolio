@@ -1,9 +1,14 @@
+#fisrtdiv{
+    position: absolute;
+
+}
+
 
 #navbar{
     background-color: black;
     display: flex;
     width: 100vw;
-    /* position:fixed; */
+    
     
 }
 
@@ -17,7 +22,7 @@
 
 .logo{
     color: rgb(191, 3, 103);
-    font-size: 35px;
+    font-size: 50px;
     width: 50vw;
     padding: 5%;
 
@@ -28,7 +33,7 @@ nav a{
     font-size: x-large;
     text-decoration: none;
     color: rgb(191, 3, 103);
-    margin-right: 7%;
+    margin-right: 10%;
 }
 
 nav a:hover{
@@ -89,6 +94,7 @@ nav a:hover{
 .aboutme{
     width: 50vw;
 
+
 }
 
  h2{
@@ -100,9 +106,9 @@ nav a:hover{
  p{
     color: black;
     font-family: Arial, Helvetica, sans-serif ;
-    font-size: large;
+    font-size: x-large;
     letter-spacing: 1px;
-    line-height: 1.5;
+    line-height: 2;
     text-align: justify; 
 }
 
@@ -114,9 +120,10 @@ nav a:hover{
 .img{
     float: right;
     border-radius: 50%;
-    width: 400px;
-    padding-top: 20%;
-    padding-right: 5%;
+    width: 500px;
+    margin-top: 200px;
+    margin-right: 210px;
+    
 
 }
 
@@ -226,11 +233,12 @@ i{
 h1{
     padding-top: 3%;
     color: rgb(250, 110, 180) ;
+
 }
 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
-    gap: 15px; 
+    gap: 20px; 
     padding:15% 10%;
     
   }
@@ -259,7 +267,7 @@ h1{
 .child div h5{
     font-size: 15px;
     color: azure;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 
