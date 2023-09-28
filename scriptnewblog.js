@@ -31,16 +31,22 @@ document.getElementById("forme").addEventListener("submit", function(event) {
     file: "file",
     description: description,
     }
-blogs.push(blog)
+    blogs.push(blog)
 
     
     console.log(blogs)
-    localStorage.setItem("blogs", blogs)
+    const blogsString= JSON.stringify(blogs)
+    localStorage.setItem("blogs", blogsString);
+    const savedBlogs= localStorage.getItem("blogs");
+    console.log(savedBlogs);
+    // localStorage.removeItem("blogs")
 
-    alert("submitted")
+    alert("New Entry");
+
+    
     
 
-    
+
 })
 
 
