@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 #navbar{
     background-color: black;
     display: flex;
