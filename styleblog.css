@@ -1,51 +1,97 @@
-*{
-    box-sizing: border-box;
-}
 
 #navbar{
     background-color: black;
     display: flex;
-    /* position:fixed;
-    top:0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-     */
+    
+    
 }
 
 
-.navi{
-    width: 50%;
-    padding-top:  5%;
-
-
-}
-
+    
 .logo{
     color: rgb(191, 3, 103);
     font-size: 50px;
+    padding-top: 15px;
     width: 50%;
-    padding: 5%;
+
 
 }
 
-
-
-nav a:hover{
-    color: azure;
+.navi{
+    padding-top: 30px;
 }
 
-
-nav a{
-    font-size: x-large;
-    text-align: right;
+.navi a{
+    display: inline;
+    padding: 25px;
+    font-size: 25px;
     text-decoration: none;
     color: rgb(191, 3, 103);
-    margin-right: 10%;
+
+
+    
 }
 
-nav a:hover{
+.navi a:hover{
     color: azure;
+}
+
+@media only screen and (max-width: 600px) {
+    #navbar {
+        flex-direction: column;
+        align-items: right;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .navi {
+        padding-top: 15px;
+    }
+
+    .navi a {
+        display: block;
+        padding: 10px 0;
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .logo {
+        font-size: 40px;
+        width: 100%;
+    }
+
+    .navi {
+        padding-top: 15px;
+    }
+
+    .navi a {
+        display: block;
+        padding: 20px;
+        text-align: right;
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (min-width: 901px) and (max-width: 1199px) {
+    .logo {
+        font-size: 40px;
+        width: 50%;
+    }
+
+    .navi {
+        padding-top: 20px;
+    }
+
+    .navi a {
+        padding: 25px;
+        font-size: 25px;
+        text-align: right;
+    }
 }
 
 body{
@@ -138,17 +184,15 @@ button{
 
 }
 
-#footer{
+footer{
     background-color: lightgrey;
-    height: 10vh;
-    width: 100vw;
-    display: flex;
+    padding: 10px 5%;
+   
 }
 
-#footer p{
-    font-size: x-large;
-    padding-left: 45%;
-    padding-top: 1%;
+footer p{
+    font-size: xx-large;
+    text-align: center;
     color:rgb(191, 3, 103);
     font-family:'Times New Roman', Times, serif;
 
