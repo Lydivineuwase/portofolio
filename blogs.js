@@ -5,7 +5,7 @@
     const contentElements= document.getElementsByClassName("content");
     const mybtnv= document.getElementById("mybtnv");
 
-    for (let i = 0; i<contentElements.length; ++){
+    for (let i = 0; i<contentElements.length; i++){
         const content= contentElements[i];
     }
 
