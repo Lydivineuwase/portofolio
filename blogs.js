@@ -7,17 +7,21 @@
 
     for (let i = 0; i<contentElements.length; i++){
         const content= contentElements[i];
-    }
+    
 
-    if(content.style.display == "none"){
+        if(content.style.display == "none"){
         content.style.display ="block";
         mybtnv.textContent= "View less"
-    }
+        }
 
-    else{
+        else{
         content.style.display="none";
         mybtnv.textContent= "View More"
+        }
     }
     
  }
- mybtnv.addEventListener("click", viewMore);
+ const mybtnv= document.getElementById("mybtnv");
+ if (mybtnv){
+    mybtnv.addEventListener("click", viewMore);
+ }
