@@ -9,14 +9,12 @@
         const content= contentElements[i];
     
 
-        if(content.style.display == "none"){
-        content.style.display ="block";
-        mybtnv.textContent= "View less"
-        }
-
-        else{
-        content.style.display="none";
-        mybtnv.textContent= "View More"
+        if(content.style.display === "" || content.style.display === "none"){
+        content.style.display = "block";
+        mybtnv.textContent = "View Less"
+        } else{
+            content.style.display="none";
+            mybtnv.textContent= "View More"
         }
     }
     
