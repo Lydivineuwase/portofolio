@@ -19,8 +19,8 @@ individual.push(person);
 
 const individualString= JSON.stringify(individual);
 localStorage.setItem("individual",individualString);
-const savedindividual= localStorage.getItem("individual");
-console.log(savedindividual);
+const savedIndividual= localStorage.getItem("individual");
+console.log(savedIndividual);
 // localStorage.removeItem("individual")
 
 alert("new Entry");

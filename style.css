@@ -3,9 +3,7 @@
 #navbar{
     background-color: black;
     display: flex;
-    
-    
-    
+
 }
 
 
@@ -81,20 +79,25 @@
 }
 
 
-@media only screen and (min-width: 901px) and (max-width: 1199px) {
+@media only screen and (min-width: 901px) and (max-width: 1250px) {
     .logo {
         font-size: 40px;
         width: 50%;
+
     }
 
     .navi {
-        padding-top: 20px;
+        padding-top: 5px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
     }
 
     .navi a {
-        padding: 25px;
+        padding:25px;
         font-size: 25px;
         text-align: right;
+        margin-left: 10px;
     }
 }
 
