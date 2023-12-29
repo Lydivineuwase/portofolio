@@ -1,0 +1,102 @@
+
+
+#navbar{
+    background-color: black;
+    display: flex;
+
+}
+
+
+    
+.logo{
+    color: rgb(191, 3, 103);
+    font-size: 50px;
+    padding-top: 15px;
+    width: 50%;
+
+
+}
+
+.navi{
+    padding-top: 30px;
+}
+
+.navi a{
+    display: inline;
+    padding: 26px;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(191, 3, 103);
+    
+
+
+    
+}
+
+.navi a:hover{
+    color: azure;
+}
+
+@media only screen and (max-width: 600px) {
+    #navbar {
+        flex-direction: column;
+        align-items: right;
+        
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .navi {
+        padding-top: 15px;
+    }
+
+    .navi a {
+        display: block;
+        padding: 10px 0;
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .logo {
+        font-size: 40px;
+        width: 100%;
+    }
+
+    .navi {
+        padding-top: 15px;
+    }
+
+    .navi a {
+        display: block;
+        padding: 20px;
+        text-align: right;
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (min-width: 901px) and (max-width: 1250px) {
+    .logo {
+        font-size: 40px;
+        width: 50%;
+
+    }
+
+    .navi {
+        padding-top: 5px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .navi a {
+        padding:25px;
+        font-size: 25px;
+        text-align: right;
+        margin-left: 10px;
+    }
+}
