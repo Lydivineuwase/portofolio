@@ -6,7 +6,6 @@ const names= document.getElementById("nam").value;
 const email= document.getElementById("email").value;
 const text= document.getElementById("text").value;
 const textone= document.getElementById("textone").value;
-const btn= document.getElementById("send");
 
 const individual=[]
 const person={
@@ -21,7 +20,7 @@ const individualString= JSON.stringify(individual);
 localStorage.setItem("individual",individualString);
 const savedIndividual= localStorage.getItem("individual");
 console.log(savedIndividual);
-// localStorage.removeItem("individual")
+
 
 alert("new Entry");
 
