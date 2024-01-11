@@ -3,6 +3,9 @@
 #navbar{
     background-color: black;
     display: flex;
+    position: fixed;
+    width: 99.2%;
+
 }
 
 
